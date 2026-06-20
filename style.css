@@ -264,7 +264,7 @@ img {
 @media (max-width: 991.98px) {
 
   .navbar-collapse {
-    margin-top: 0.75rem;
+    margin-top: 0.45rem;
     padding: 0 1.25rem;
     background: var(--panel-strong);
     border: 1px solid var(--line);
@@ -289,7 +289,7 @@ img {
     max-height: 480px;
     opacity: 1;
     transform: translateY(0) scaleY(1);
-    padding: 1rem 1.25rem 1.5rem;
+    padding: 1rem 1.25rem;
   }
 
   [data-theme="light"] .navbar-collapse {
@@ -328,7 +328,7 @@ img {
   }
 
   .navbar-nav .theme-toggle {
-    margin: 0.75rem auto 0;
+    margin: 0.75rem auto -0.25rem;
     display: flex;
   }
 
