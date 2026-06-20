@@ -1,0 +1,659 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Kimberly Linatoc | BSIT Student & Frontend Developer</title>
+    <meta name="description" content="Kimberly Linatoc is a 2nd-year BSIT student in the Philippines, building clean, responsive websites and exploring full-stack development.">
+    <meta name="keywords" content="BSIT student, frontend developer, Bootstrap, responsive design, GitHub Pages, portfolio, Philippines">
+    <meta name="author" content="Kimberly Linatoc">
+    <link rel="canonical" href="https://csnvrea.github.io/portfolio/">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Kimberly Linatoc | BSIT Student & Frontend Developer">
+    <meta property="og:description" content="2nd-year BSIT student building clean, responsive websites with Bootstrap 5 and JavaScript.">
+    <meta property="og:url" content="https://csnvrea.github.io/portfolio/">
+    <meta property="og:site_name" content="Kimberly Linatoc">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Kimberly Linatoc | BSIT Student">
+    <meta name="twitter:description" content="2nd-year BSIT student building clean, responsive websites.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;0,800;1,700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="90" tabindex="0">
+
+    <div class="ambient ambient-one" aria-hidden="true"></div>
+    <div class="ambient ambient-two" aria-hidden="true"></div>
+    <div class="page-frame" aria-hidden="true"></div>
+    <canvas id="particleCanvas" aria-hidden="true"></canvas>
+
+    <nav id="mainNav" class="navbar navbar-expand-lg fixed-top" aria-label="Main navigation">
+      <div class="container">
+        <a class="navbar-brand" href="#home" aria-label="Kimberly Linatoc — Home">KL<span aria-hidden="true">.</span></a>
+
+        <button class="navbar-toggler" type="button"
+          data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+          aria-controls="navbarMenu" aria-expanded="false"
+          aria-label="Toggle navigation menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMenu">
+          <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            <li class="nav-item ms-lg-2">
+
+              <a class="btn btn-outline-luxury btn-sm" href="assets/cv/Kimberly-Linatoc-Resume.pdf" target="_blank" rel="noopener noreferrer" aria-label="View resume PDF">
+                <i class="bi bi-download" aria-hidden="true"></i>
+                Resume
+              </a>
+            </li>
+            <li class="nav-item ms-lg-1">
+              <button id="themeToggle" class="theme-toggle" type="button" aria-label="Toggle color theme">
+                <i class="bi bi-moon-stars" aria-hidden="true"></i>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main id="main-content">
+
+      <section id="home" class="hero section-padding" aria-labelledby="hero-heading">
+        <div class="container">
+          <div class="row align-items-center g-5">
+
+            <div class="col-lg-7">
+              <div class="eyebrow reveal" aria-hidden="true">2nd Year BSIT Student & Frontend Developer</div>
+              <h1 id="hero-heading" class="display-title reveal reveal-delay-1">
+                Hi, I'm Kimberly.<br>
+                <span>I build things for the web.</span>
+              </h1>
+              <p class="hero-copy reveal reveal-delay-2">
+                A 2nd-year Bachelor of Science in Information Technology student passionate about creating clean, responsive websites — from academic projects to personal tools that solve real problems.
+              </p>
+
+              <div class="hero-specialty reveal reveal-delay-2" aria-live="polite">
+                <span>Currently studying</span>
+                <strong id="typedText">Web Development</strong>
+              </div>
+
+              <div class="d-flex flex-wrap gap-3 reveal reveal-delay-3">
+                <a class="btn btn-luxury" href="#projects">
+                  <i class="bi bi-grid-1x2-fill" aria-hidden="true"></i>
+                  View Projects
+                </a>
+
+                <a class="btn btn-outline-luxury" href="assets/cv/Kimberly-Linatoc-Resume.pdf" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-download" aria-hidden="true"></i>
+                  Download Resume
+                </a>
+                <a class="btn btn-ghost" href="#contact">
+                  <i class="bi bi-send" aria-hidden="true"></i>
+                  Get in Touch
+                </a>
+              </div>
+
+              <div class="hero-stats reveal reveal-delay-4" role="list">
+                <div role="listitem">
+                  <strong>2nd</strong>
+                  <span>Year BSIT</span>
+                </div>
+                <div role="listitem">
+                  <strong>4+</strong>
+                  <span>Projects built</span>
+                </div>
+                <div role="listitem">
+                  <strong>100%</strong>
+                  <span>Mobile-first</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-5 reveal reveal-delay-2">
+              <div class="profile-showcase">
+                <div class="profile-card">
+                  <div class="profile-ribbon" aria-hidden="true"></div>
+                  <span class="profile-note" aria-hidden="true">BSIT · 2nd Year</span>
+
+                  <div class="profile-avatar-wrap">
+                    <img
+                      id="profilePhoto"
+                      src="assets/images/profile.jpg"
+                      alt="Kimberly Linatoc"
+                      class="profile-photo"
+                      onerror="this.style.display='none';document.getElementById('profilePhotoFallback').style.display='grid';"
+                    >
+                    <div id="profilePhotoFallback" class="profile-avatar" aria-hidden="true" style="display:none">
+                      <i class="bi bi-person-fill"></i>
+                    </div>
+
+                    <script>
+                      (function(){
+                        var img = document.getElementById('profilePhoto');
+                        img.onerror = function(){
+                          this.style.display='none';
+                          document.getElementById('profilePhotoFallback').style.display='grid';
+                        };
+                        img.onload = function(){ this.style.display='block'; };
+                      })();
+                    </script>
+                  </div>
+
+                  <h2 class="profile-card-heading">Kimberly Linatoc</h2>
+                  <p>BS Information Technology student building responsive websites and learning full-stack development — one project at a time.</p>
+
+                  <div class="availability">
+                    <i class="bi bi-mortarboard" aria-hidden="true"></i>
+                    <span>Open to internship opportunities, capstone collaborations, and freelance web projects.</span>
+                  </div>
+
+                  <div class="profile-stack" role="list" aria-label="Tech stack">
+                    <span role="listitem">HTML/CSS</span>
+                    <span role="listitem">Bootstrap 5</span>
+                    <span role="listitem">JavaScript</span>
+                    <span role="listitem">MySQL</span>
+                    <span role="listitem">GitHub</span>
+                  </div>
+
+                  <div class="profile-socials" aria-label="Social links">
+                    <a href="https://github.com/csnvrea" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
+                      <i class="bi bi-github" aria-hidden="true"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/kimberly-linatoc-10b312416/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
+                      <i class="bi bi-linkedin" aria-hidden="true"></i>
+                    </a>
+                    <a href="mailto:csnvrea@gmail.com" aria-label="Send email">
+                      <i class="bi bi-envelope" aria-hidden="true"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section-padding" aria-labelledby="about-heading">
+        <div class="container">
+          <div class="row align-items-center g-5">
+
+            <div class="col-lg-5 reveal">
+              <div class="image-panel">
+                <div class="about-photo-wrap">
+                  <img
+                    src="assets/images/profile.jpg"
+                    alt="Kimberly Linatoc"
+                    class="about-photo"
+                    onerror="this.style.display='none';this.nextElementSibling.style.display='grid';"
+                  >
+                  <div class="image-placeholder" style="display:none">
+                    <div class="image-placeholder-inner">
+                      <i class="bi bi-person-workspace"></i>
+                      <span>Add profile.jpg to assets/images/</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-7 reveal reveal-delay-1">
+              <span class="section-kicker" aria-hidden="true">About Me</span>
+              <h2 id="about-heading" class="section-title">
+                Building skills one project at a time.
+              </h2>
+              <p class="section-copy">
+                I'm Kimberly Linatoc, a 2nd-year Bachelor of Science in Information Technology student based in the Philippines. I'm passionate about web development — I love turning ideas into functional, well-designed websites that are easy to navigate and look great on any device.
+              </p>
+              <p class="section-copy mt-3">
+                Outside of coursework, I spend my time building personal projects, exploring new frameworks, and sharpening my design eye. I believe good code and thoughtful design go hand in hand, and I bring both to every project I work on.
+              </p>
+
+              <div class="row g-3 mt-4">
+                <div class="col-sm-4">
+                  <div class="icon-box">
+                    <i class="bi bi-code-slash" aria-hidden="true"></i>
+                    <h3>Problem Solver</h3>
+                    <p>I enjoy breaking down complex problems and finding clean, logical solutions through code.</p>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="icon-box">
+                    <i class="bi bi-phone" aria-hidden="true"></i>
+                    <h3>Mobile-First</h3>
+                    <p>Every project I build is tested across screen sizes — phone, tablet, and desktop.</p>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="icon-box">
+                    <i class="bi bi-book" aria-hidden="true"></i>
+                    <h3>Always Learning</h3>
+                    <p>Constantly picking up new tools and techniques to grow as a developer and designer.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="d-flex flex-wrap gap-3 mt-4">
+                <a class="btn btn-outline-luxury" href="assets/cv/Kimberly-Linatoc-Resume.pdf" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-file-earmark-arrow-down" aria-hidden="true"></i>
+                  Download Resume
+                </a>
+                <a class="btn btn-ghost" href="#contact">
+                  <i class="bi bi-chat" aria-hidden="true"></i>
+                  Let's Talk
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section-padding section-muted" aria-labelledby="skills-heading">
+        <div class="container">
+          <div class="text-center reveal">
+            <span class="section-kicker" aria-hidden="true">Skills</span>
+            <h2 id="skills-heading" class="section-title mx-auto">Technologies I've worked with.</h2>
+            <p class="section-copy mx-auto mt-3">Tools and languages I've learned through coursework, self-study, and hands-on projects.</p>
+          </div>
+
+          <div class="row g-4 mt-2">
+            <div class="col-md-6 col-lg-4 reveal">
+              <div class="skill-card">
+                <i class="bi bi-window-sidebar" aria-hidden="true"></i>
+                <h3>Frontend</h3>
+                <div class="skill-item" data-skill="88">
+                  <span>HTML / CSS</span>
+                  <div class="progress" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" aria-label="HTML / CSS proficiency">
+                    <div class="progress-bar"></div>
+                  </div>
+                </div>
+                <div class="skill-item" data-skill="82">
+                  <span>Bootstrap 5</span>
+                  <div class="progress" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" aria-label="Bootstrap 5 proficiency">
+                    <div class="progress-bar"></div>
+                  </div>
+                </div>
+                <div class="skill-item" data-skill="74">
+                  <span>JavaScript (ES6+)</span>
+                  <div class="progress" role="progressbar" aria-valuenow="74" aria-valuemin="0" aria-valuemax="100" aria-label="JavaScript proficiency">
+                    <div class="progress-bar"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 reveal reveal-delay-1">
+              <div class="skill-card">
+                <i class="bi bi-server" aria-hidden="true"></i>
+                <h3>Backend & Database</h3>
+                <div class="skill-item" data-skill="68">
+                  <span>PHP</span>
+                  <div class="progress" role="progressbar" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100" aria-label="PHP proficiency">
+                    <div class="progress-bar"></div>
+                  </div>
+                </div>
+                <div class="skill-item" data-skill="72">
+                  <span>MySQL</span>
+                  <div class="progress" role="progressbar" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100" aria-label="MySQL proficiency">
+                    <div class="progress-bar"></div>
+                  </div>
+                </div>
+                <div class="skill-item" data-skill="60">
+                  <span>Java (OOP)</span>
+                  <div class="progress" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" aria-label="Java proficiency">
+                    <div class="progress-bar"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4 reveal reveal-delay-2">
+              <div class="skill-card">
+                <i class="bi bi-tools" aria-hidden="true"></i>
+                <h3>Tools & Workflow</h3>
+                <div class="skill-item" data-skill="80">
+                  <span>Git & GitHub</span>
+                  <div class="progress" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" aria-label="Git proficiency">
+                    <div class="progress-bar"></div>
+                  </div>
+                </div>
+                <div class="skill-item" data-skill="70">
+                  <span>Figma</span>
+                  <div class="progress" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" aria-label="Figma proficiency">
+                    <div class="progress-bar"></div>
+                  </div>
+                </div>
+                <div class="skill-item" data-skill="76">
+                  <span>VS Code</span>
+                  <div class="progress" role="progressbar" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100" aria-label="VS Code proficiency">
+                    <div class="progress-bar"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="tech-badges mt-5 reveal">
+            <span>HTML5</span><span>CSS3</span><span>Bootstrap 5</span><span>JavaScript</span>
+            <span>PHP</span><span>MySQL</span><span>Java</span><span>Git</span>
+            <span>GitHub</span><span>Figma</span><span>VS Code</span><span>GitHub Pages</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section-padding" aria-labelledby="projects-heading">
+        <div class="container">
+
+          <div class="d-flex flex-column flex-lg-row justify-content-between align-items-lg-end gap-4 reveal">
+            <div>
+              <span class="section-kicker" aria-hidden="true">Selected Works</span>
+              <h2 id="projects-heading" class="section-title">Projects I've built as a BSIT student.</h2>
+            </div>
+            <div class="filter-group" role="group" aria-label="Filter projects by category">
+              <button class="filter-btn active" type="button" data-filter="all">All</button>
+              <button class="filter-btn" type="button" data-filter="web">Web Apps</button>
+              <button class="filter-btn" type="button" data-filter="ui">UI Design</button>
+              <button class="filter-btn" type="button" data-filter="system">Systems</button>
+            </div>
+          </div>
+
+          <div class="row g-4 mt-3 project-grid" id="projectGrid">
+
+            <div class="col-md-6 col-xl-4 project-item reveal" data-category="system">
+              <article class="project-card" aria-label="Measurements Conversion System project">
+                <div class="project-preview preview-one" aria-hidden="true">
+                  <img src="assets/images/project-1.jpg" alt="Measurements Conversion System screenshot" class="project-img" onerror="this.style.display='none'">
+                  <i class="bi bi-ruler project-preview-icon"></i>
+                </div>
+                <div class="project-content">
+                  <span class="project-category">System</span>
+                  <h3>Measurements Conversion System</h3>
+                  <p>A C++ application that converts various units of measurement, including length, weight, volume, and more, providing accurate results through a simple user-friendly interface.</p>
+                  <div class="project-tags" role="list">
+                    <span role="listitem">C++</span>
+                    <span role="listitem">OOP</span>
+                    <span role="listitem">CLI</span>
+                    <span role="listitem">Unit Conversion</span>
+                  </div>
+
+                  <a href="https://github.com/csnvrea/Measurements-Conversion-System" target="_blank" rel="noopener noreferrer" aria-label="View Measurements Conversion System on GitHub" class="project-link">
+                    View on GitHub <i class="bi bi-arrow-up-right" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-xl-4 project-item reveal reveal-delay-1" data-category="web">
+              <article class="project-card" aria-label="Web-Based Fragrance Commerce project">
+                <div class="project-preview preview-two" aria-hidden="true">
+                  <img src="assets/images/project-2.jpg" alt="Web-Based Fragrance Commerce screenshot" class="project-img" onerror="this.style.display='none'">
+                  <i class="bi bi-cart project-preview-icon"></i>
+                </div>
+                <div class="project-content">
+                  <span class="project-category">Web App</span>
+                  <h3>Web-Based Fragrance Commerce</h3>
+                  <p>An e-commerce platform for fragrances that allows users to browse products, view scent details, manage carts, and place orders online. Built using PHP, MySQL, and Bootstrap.</p>
+                  <div class="project-tags" role="list">
+                    <span role="listitem">PHP</span>
+                    <span role="listitem">MySQL</span>
+                    <span role="listitem">JavaScript</span>
+                    <span role="listitem">Bootstrap</span>
+                  </div>
+
+                  <a href="https://github.com/csnvrea/Web-Based-Fragrance-Commerce" target="_blank" rel="noopener noreferrer" aria-label="View Web-Based Fragrance Commerce on GitHub" class="project-link">
+                    View on GitHub <i class="bi bi-arrow-up-right" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-md-6 col-xl-4 project-item reveal reveal-delay-2" data-category="ui">
+              <article class="project-card" aria-label="Personal Portfolio Website project">
+                <div class="project-preview preview-three" aria-hidden="true">
+                  <img src="assets/images/project-3.jpg" alt="Portfolio Website screenshot" class="project-img" onerror="this.style.display='none'">
+                  <i class="bi bi-gem project-preview-icon"></i>
+                </div>
+                <div class="project-content">
+                  <span class="project-category">UI Design</span>
+                  <h3>Personal Portfolio Website</h3>
+                  <p>A modern personal portfolio website built with Bootstrap 5 and vanilla JavaScript, featuring dark/light mode, scroll animations, project filtering, and a contact form.</p>
+                  <div class="project-tags" role="list">
+                    <span role="listitem">Bootstrap 5</span>
+                    <span role="listitem">CSS3</span>
+                    <span role="listitem">JavaScript</span>
+                    <span role="listitem">GitHub Pages</span>
+                  </div>
+
+                  <a href="https://github.com/csnvrea/csnvrea.github.io" target="_blank" rel="noopener noreferrer" aria-label="View Portfolio Website on GitHub" class="project-link">
+                    View on GitHub <i class="bi bi-arrow-up-right" aria-hidden="true"></i>
+                  </a>
+                </div>
+              </article>
+            </div>
+
+          </div>
+
+          <div class="text-center mt-5 reveal">
+            <a href="https://github.com/csnvrea" target="_blank" rel="noopener noreferrer" class="btn btn-outline-luxury">
+              <i class="bi bi-github" aria-hidden="true"></i>
+              See more on GitHub
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section-padding section-muted" aria-labelledby="experience-heading">
+        <div class="container">
+          <div class="text-center reveal">
+            <span class="section-kicker" aria-hidden="true">Experience</span>
+            <h2 id="experience-heading" class="section-title mx-auto">My journey as a BSIT student.</h2>
+          </div>
+
+          <div class="timeline mt-5" role="list">
+
+            <div class="timeline-item reveal" role="listitem">
+              <div class="timeline-dot" aria-hidden="true"></div>
+              <div class="timeline-content">
+                <time datetime="2026" class="timeline-year">2026 — Present</time>
+                <h3>2nd Year — BSIT, Polytechnic University of the Philippines</h3>
+                <p>Enrolled in Systems Analysis and Design, Database Management Systems, and Object-Oriented Programming. Built this portfolio as a personal project to document my growth and present my work professionally.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item reveal reveal-delay-1" role="listitem">
+              <div class="timeline-dot" aria-hidden="true"></div>
+              <div class="timeline-content">
+                <time datetime="2025" class="timeline-year">2025</time>
+                <h3>1st Year — Core CS Foundations</h3>
+                <p>Completed Introduction to Computing, Computer Programming (Java), and Web Development fundamentals. Built my first full web pages and learned how to structure projects properly with Git and GitHub.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item reveal reveal-delay-2" role="listitem">
+              <div class="timeline-dot" aria-hidden="true"></div>
+              <div class="timeline-content">
+                <time datetime="2024" class="timeline-year">2024</time>
+                <h3>Started BSIT — University Enrollment</h3>
+                <p>Began my IT journey with a focus on programming logic, digital literacy, and the basics of computing. Discovered a genuine interest in web design and front-end development, which has driven every project since.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section-padding" aria-labelledby="contact-heading">
+        <div class="container">
+          <div class="row g-5 align-items-start">
+
+            <div class="col-lg-5 reveal">
+              <span class="section-kicker" aria-hidden="true">Contact</span>
+              <h2 id="contact-heading" class="section-title">Let's build something together.</h2>
+              <p class="section-copy">
+                Whether you have a project in mind, want to collaborate on something, or just want to say hi — my inbox is open. I'll get back to you within 24 hours.
+              </p>
+
+              <div class="contact-details mt-4">
+                <a href="mailto:csnvrea@gmail.com" class="contact-detail-link">
+                  <span class="contact-detail-icon" aria-hidden="true"><i class="bi bi-envelope"></i></span>
+                  <span>csnvrea@gmail.com</span>
+                </a>
+                <a href="https://github.com/csnvrea" target="_blank" rel="noopener noreferrer" class="contact-detail-link">
+                  <span class="contact-detail-icon" aria-hidden="true"><i class="bi bi-github"></i></span>
+                  <span>github.com/csnvrea</span>
+                </a>
+                <a href="https://www.linkedin.com/in/kimberly-linatoc-10b312416/" target="_blank" rel="noopener noreferrer" class="contact-detail-link">
+                  <span class="contact-detail-icon" aria-hidden="true"><i class="bi bi-linkedin"></i></span>
+                  <span>linkedin.com/in/kimberly-linatoc</span>
+                </a>
+              </div>
+
+              <div class="socials mt-4" aria-label="Social media links">
+                <a href="https://github.com/csnvrea" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                  <i class="bi bi-github" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/kimberly-linatoc-10b312416/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                  <i class="bi bi-linkedin" aria-hidden="true"></i>
+                </a>
+                <a href="mailto:csnvrea@gmail.com" aria-label="Email Kimberly">
+                  <i class="bi bi-envelope" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-7 reveal reveal-delay-1">
+
+              <form
+                id="contactForm"
+                class="contact-form"
+                action="https://formspree.io/f/mjgdjove"
+                method="POST"
+                novalidate
+                aria-label="Contact form">
+
+                <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" aria-hidden="true">
+                <input type="hidden" name="_subject" value="New message from portfolio — Kimberly Linatoc">
+
+                <div class="row g-3">
+                  <div class="col-sm-6">
+                    <label for="contactName" class="form-label">Name <span class="required-mark" aria-hidden="true">*</span></label>
+                    <input
+                      id="contactName"
+                      class="form-control"
+                      type="text"
+                      name="name"
+                      placeholder="Your name"
+                      required
+                      autocomplete="name"
+                      aria-required="true">
+                    <div class="invalid-feedback">Please enter your name.</div>
+                  </div>
+
+                  <div class="col-sm-6">
+                    <label for="contactEmail" class="form-label">Email <span class="required-mark" aria-hidden="true">*</span></label>
+                    <input
+                      id="contactEmail"
+                      class="form-control"
+                      type="email"
+                      name="email"
+                      placeholder="you@example.com"
+                      required
+                      autocomplete="email"
+                      aria-required="true">
+                    <div class="invalid-feedback">Please enter a valid email address.</div>
+                  </div>
+
+                  <div class="col-12">
+                    <label for="contactSubject" class="form-label">Subject</label>
+                    <input
+                      id="contactSubject"
+                      class="form-control"
+                      type="text"
+                      name="subject"
+                      placeholder="What's this about?"
+                      autocomplete="off">
+                  </div>
+
+                  <div class="col-12">
+                    <label for="contactMessage" class="form-label">Message <span class="required-mark" aria-hidden="true">*</span></label>
+                    <textarea
+                      id="contactMessage"
+                      class="form-control"
+                      rows="6"
+                      name="message"
+                      placeholder="Tell me about your project or idea…"
+                      required
+                      aria-required="true"></textarea>
+                    <div class="invalid-feedback">Please enter a message.</div>
+                  </div>
+
+                  <div class="col-12">
+                    <button class="btn btn-luxury w-100" type="submit" id="submitBtn">
+                      <span class="btn-label">
+                        <i class="bi bi-send-fill" aria-hidden="true"></i>
+                        Send Message
+                      </span>
+                      <span class="btn-loading d-none" aria-live="polite">
+                        <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                        Sending…
+                      </span>
+                    </button>
+                  </div>
+                </div>
+
+                <div id="formSuccess" class="form-alert form-alert-success d-none" role="alert" aria-live="polite">
+                  <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+                  <strong>Message sent!</strong> I'll get back to you within 24 hours.
+                </div>
+                <div id="formError" class="form-alert form-alert-error d-none" role="alert" aria-live="polite">
+                  <i class="bi bi-exclamation-circle-fill" aria-hidden="true"></i>
+                  <strong>Something went wrong.</strong> Please try again or email me directly at <a href="mailto:csnvrea@gmail.com">csnvrea@gmail.com</a>.
+                </div>
+
+              </form>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+      <div class="container">
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+          <p class="mb-0">&copy; <span id="year"></span> Kimberly Linatoc. All rights reserved.</p>
+          <nav aria-label="Footer navigation" class="d-flex gap-4 align-items-center">
+            <a href="assets/cv/Kimberly-Linatoc-Resume.pdf" target="_blank" rel="noopener noreferrer">Download Resume</a>
+            <a href="https://github.com/csnvrea" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="#home" class="footer-top-link">
+              <i class="bi bi-arrow-up" aria-hidden="true"></i>
+              Back to top
+            </a>
+          </nav>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc4s9bIOgUxi8T/jzmFb0sEYCCEpLhECKcp/k7GSmq3T" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
