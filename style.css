@@ -1198,6 +1198,48 @@ img {
   color: #a02c58;
 }
 
+.activity-number {
+  position: absolute;
+  right: 1.1rem;
+  bottom: 0.4rem;
+  z-index: 3;
+  color: rgba(255, 255, 255, 0.22);
+  font-family: var(--font-display);
+  font-size: 5rem;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  pointer-events: none;
+}
+
+.activity-upcoming {
+  min-height: 100%;
+  background: transparent;
+  border-style: dashed;
+  box-shadow: none;
+}
+
+[data-theme="light"] .activity-upcoming {
+  background: transparent;
+}
+
+.activity-upcoming:hover {
+  transform: none;
+  box-shadow: none;
+}
+
+.activity-upcoming-icon {
+  display: inline-grid;
+  place-items: center;
+  width: 3rem;
+  height: 3rem;
+  margin-bottom: 1rem;
+  color: var(--rose);
+  border: 1px dashed var(--line);
+  border-radius: 1rem 1rem 1rem 0.35rem;
+  font-size: 1.3rem;
+}
+
 .project-item.hide {
   display: none;
 }
